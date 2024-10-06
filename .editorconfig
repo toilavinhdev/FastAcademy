@@ -1,0 +1,15 @@
+﻿# http://editorconfig.org/
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+
+[*.cs]
+indent_size = 4
+
+[*.tsx]
+indent_size = 2
+
+[*.{json,yml,yaml}]
+indent_size = 2
