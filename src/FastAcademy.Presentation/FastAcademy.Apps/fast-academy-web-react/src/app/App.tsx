@@ -1,10 +1,9 @@
-import { Button } from 'antd'
+import AppRouter from './_components/AppRouter.tsx'
 
 export default function App() {
   return (
-    <div>
-      <div className='text-orange-700 underline'>Fast Academy</div>
-      <Button type='primary'>Primary Button</Button>
-    </div>
+    <main>
+      <AppRouter />
+    </main>
   )
 }
